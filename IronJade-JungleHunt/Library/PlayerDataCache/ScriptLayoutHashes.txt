@@ -1,6 +1,6 @@
 Android
 SceneListBegin?
-Assets/GoogleVR/Demos/Scenes/HelloVR.unity
+Assets/IronJadeAssets/Scenes/FirstPlayable.unity
 SceneListEnd?
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
 047843e8fc8efc789ac0ebf61a6343c3 Assembly-CSharp.dll:GoogleVR.HelloVR.HeadsetDemoManager
