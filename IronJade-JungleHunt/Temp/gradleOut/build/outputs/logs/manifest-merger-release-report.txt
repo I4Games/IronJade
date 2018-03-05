@@ -1,0 +1,188 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:2:70-100
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:2:148-173
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:2:101-147
+	android:versionCode
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:2:174-197
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:2:198-238
+supports-screens
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:3:135-160
+application
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:3-19:17
+MERGED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:11:5-29:19
+MERGED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:11:5-28:19
+	android:label
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:50-82
+	android:supportsRtl
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:16-49
+	android:allowBackup
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:12:9-35
+	android:banner
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:105-142
+	android:theme
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:143-181
+	android:isGame
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:83-104
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:5:5-13:16
+	android:screenOrientation
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:5:102-140
+	android:label
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:5:69-101
+	android:launchMode
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:5:141-172
+	android:configChanges
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:5:173-354
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:5:15-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER+com.google.intent.category.CARDBOARD
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:6:7-11:23
+action#android.intent.action.MAIN
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:8:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:9:9-78
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:9:19-75
+category#com.google.intent.category.CARDBOARD
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:10:9-73
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:10:19-70
+meta-data#unityplayer.UnityActivity
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:12:7-82
+	android:value
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:12:59-79
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:12:18-58
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:14:5-88
+	android:value
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:14:65-85
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:14:16-64
+meta-data#unity.build-id
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:15:5-101
+	android:value
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:15:46-98
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:15:16-45
+meta-data#unity.splash-mode
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:16:5-69
+	android:value
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:16:49-66
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:16:16-48
+meta-data#unity.splash-enable
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:17:5-75
+	android:value
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:17:51-72
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:17:16-50
+meta-data#android.max_aspect
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:18:5-72
+	android:value
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:18:50-69
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:18:16-49
+uses-sdk
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:20:3-72
+MERGED from [:gvr-keyboard:] /Users/gbc-101073148/.android/build-cache/2e4924a034bf6206fee9b65e7c39a5cf53abf496/output/AndroidManifest.xml:3:3-71
+MERGED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr:] /Users/gbc-101073148/.android/build-cache/bd058c492f20cb9aa00753c3e99f264138f8248a/output/AndroidManifest.xml:5:5-7:41
+MERGED from [:unitygvr:] /Users/gbc-101073148/.android/build-cache/7e8bbb0baaad28db3a2d25208be5e5c97d69f51b/output/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:20:40-69
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:20:13-39
+uses-feature#0x00020000
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:21:3-52
+	android:glEsVersion
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:21:17-49
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:22:3-78
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:22:20-75
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:23:3-88
+	android:required
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:23:61-85
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:23:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:24:3-99
+	android:required
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:24:72-96
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:24:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:25:3-108
+	android:required
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:25:81-105
+	android:name
+		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:25:17-80
+activity#com.google.gvr.keyboardsupport.TransitionVRActivity
+ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:17:9-28:20
+	android:enableVrMode
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:20:13-106
+	android:label
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:22:13-45
+	android:exported
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:21:13-37
+	android:resizeableActivity
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:23:13-47
+	android:configChanges
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:19:13-59
+	android:name
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:18:13-79
+intent-filter#android.intent.category.LAUNCHER+com.google.intent.category.DAYDREAM
+ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:24:13-27:29
+category#com.google.intent.category.DAYDREAM
+ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:26:17-80
+	android:name
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/AndroidManifest.xml:26:27-77
+activity#com.google.gvr.permissionsupport.TransitionVRActivity
+ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:17:9-27:20
+	android:enableVrMode
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:20:13-106
+	android:label
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:22:13-45
+	android:exported
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:21:13-37
+	android:configChanges
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:19:13-59
+	android:name
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/AndroidManifest.xml:18:13-81

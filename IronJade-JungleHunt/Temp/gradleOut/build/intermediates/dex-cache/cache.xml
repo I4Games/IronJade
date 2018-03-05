@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/gbc-101073148/.android/build-cache/2e4924a034bf6206fee9b65e7c39a5cf53abf496/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b434956ac497f594a9352f3aacdb5f048dc3ff39">
+        <dex dex="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_c0aeedac5b3f8e7cff916d8b68743e119c4085b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gbc-101073148/.android/build-cache/cd5dbc88e289467cba57446c6f75af3e0320cfa3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="1b85ed744e864fccf4fe6ee1c5ef16ea5a1e2fe2">
+        <dex dex="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_028ea4557d570c05fd5d2f2c1279a47c71c6a45a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2d302418aa3482b8db770278260340aed47dd37a">
+        <dex dex="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/build/intermediates/pre-dexed/release/unity-classes_6de929442ccb308dbb11499d80866f26b7ab580e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/libs/libprotobuf-java-nano.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fcd53f117550c58490f29c2e27afca051626260d">
+        <dex dex="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/build/intermediates/pre-dexed/release/libprotobuf-java-nano_a8afe290e3033a2a60a73466d74c5049ac5220f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gbc-101073148/.android/build-cache/2fdf7a5121f4f598c14bf2f3a635240a94d6b0e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="bd30ddc32173ef9dd69fe1895ce89831ef227596">
+        <dex dex="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_3e4b6abc691f7471888698834d512bfa664ddf58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gbc-101073148/.android/build-cache/bd058c492f20cb9aa00753c3e99f264138f8248a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a008a0b3cdc09c8b37fd39fa7e112b1c5b487d50">
+        <dex dex="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_d4a20cbe9e0ce8d4291373b510b1a1d0481031b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gbc-101073148/.android/build-cache/7e8bbb0baaad28db3a2d25208be5e5c97d69f51b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="36e70259b99d30e8bd89f2246a70d44a53cb309f">
+        <dex dex="/Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_3bc8b132df7127db8a96853abe3fd61451ee136c.jar" />
+    </item>
+
+</items>
