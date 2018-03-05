@@ -33,16 +33,16 @@ ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Te
 		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:3:135-160
 application
 ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:3-19:17
-MERGED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:11:5-29:19
-MERGED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:11:5-28:19
+MERGED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:11:5-29:19
+MERGED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:11:5-28:19
 	android:label
 		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:50-82
 	android:supportsRtl
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:14:9-35
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:14:9-35
 	android:icon
 		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:16-49
 	android:allowBackup
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:12:9-35
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:12:9-35
 	android:banner
 		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:4:105-142
 	android:theme
@@ -117,11 +117,11 @@ ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Te
 		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:18:16-49
 uses-sdk
 ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:20:3-72
-MERGED from [:gvr-keyboard:] /Users/gbc-101073148/.android/build-cache/84f074f41cede1a884ed9d9fc15538b1f4d65731/output/AndroidManifest.xml:3:3-71
-MERGED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:7:5-9:41
-MERGED from [:gvr:] /Users/gbc-101073148/.android/build-cache/0fe75f62ec95bb6348b6702b337827b11d9eea47/output/AndroidManifest.xml:5:5-7:41
-MERGED from [:unitygvr:] /Users/gbc-101073148/.android/build-cache/a480b62586b0d1192b790bd04baa16b9f6a50a2f/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-keyboard:] /Users/gbc-101073148/.android/build-cache/beed12704589244506750ecba7430ab27c8a4241/output/AndroidManifest.xml:3:3-71
+MERGED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr:] /Users/gbc-101073148/.android/build-cache/16dc6ef704b5a42bc189fd27e38867dbe9210bb9/output/AndroidManifest.xml:5:5-7:41
+MERGED from [:unitygvr:] /Users/gbc-101073148/.android/build-cache/c40c472535537a330f578502210faceb4950c2a8/output/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
 		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:20:40-69
 		INJECTED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml
@@ -155,34 +155,34 @@ ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Te
 	android:name
 		ADDED from /Users/gbc-101073148/Documents/GitHub/IronJade/IronJade-JungleHunt/Temp/gradleOut/src/main/AndroidManifest.xml:25:17-80
 activity#com.google.gvr.keyboardsupport.TransitionVRActivity
-ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:17:9-28:20
+ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:17:9-28:20
 	android:enableVrMode
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:20:13-106
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:20:13-106
 	android:label
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:22:13-45
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:22:13-45
 	android:exported
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:21:13-37
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:21:13-37
 	android:resizeableActivity
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:23:13-47
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:23:13-47
 	android:configChanges
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:19:13-59
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:19:13-59
 	android:name
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:18:13-79
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:18:13-79
 intent-filter#android.intent.category.LAUNCHER+com.google.intent.category.DAYDREAM
-ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:24:13-27:29
+ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:24:13-27:29
 category#com.google.intent.category.DAYDREAM
-ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:26:17-80
+ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:26:17-80
 	android:name
-		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/6d6123727fb374755492f57f95637b95b696e16e/output/AndroidManifest.xml:26:27-77
+		ADDED from [:gvr-keyboardsupport-release:] /Users/gbc-101073148/.android/build-cache/0a23db0a648376eb167e0f4a681ed8e85cbfebb7/output/AndroidManifest.xml:26:27-77
 activity#com.google.gvr.permissionsupport.TransitionVRActivity
-ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:17:9-27:20
+ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:17:9-27:20
 	android:enableVrMode
-		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:20:13-106
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:20:13-106
 	android:label
-		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:22:13-45
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:22:13-45
 	android:exported
-		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:21:13-37
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:21:13-37
 	android:configChanges
-		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:19:13-59
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:19:13-59
 	android:name
-		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/1ea002ccdd73a25f35cbbb99fcad77fe3503f57e/output/AndroidManifest.xml:18:13-81
+		ADDED from [:gvr-permissionsupport-release:] /Users/gbc-101073148/.android/build-cache/399b252ae98a4bbaf73677c4f7181ce3cdb0d37b/output/AndroidManifest.xml:18:13-81
