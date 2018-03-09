@@ -8,6 +8,7 @@ public class CameraRayCast : MonoBehaviour
 
 	public float cursorRange = 50f; 
 	public GameObject mainMenu;
+	public Transform crossHairPosition;
 
 	private Camera fpsCam;
 
@@ -24,9 +25,13 @@ public class CameraRayCast : MonoBehaviour
 			mainMenu.SetActive (true);
 		}
 
-		Vector3 rayOrigin = fpsCam.ViewportToWorldPoint (new Vector3 (.5f, .5f, 0));
+		Vector3 rayOrigin = crossHairPosition.TransformDirection (Vector3.forward);
+
+		Debug.Log (rayOrigin.ToString());
+
+//		Debug.DrawRay(crossHairPosition.position, rayOrigin * 50, Color.red);
 		RaycastHit hit;
-		if (Physics.Raycast (rayOrigin, fpsCam.transform.forward, out hit, cursorRange)) 
+		if (Physics.Raycast (crossHairPosition.position, rayOrigin, out hit, cursorRange)) 
 		{
 			if (hit.collider.gameObject.tag == "uibutton"
 			    && Input.GetButtonDown ("Fire1")) {
