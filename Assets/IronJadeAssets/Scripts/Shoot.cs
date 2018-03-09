@@ -6,6 +6,8 @@ public class Shoot : MonoBehaviour {
 
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
+	public GameObject mainMenu;
+	public float bulletSpeed = 80f;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +16,7 @@ public class Shoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Fire1")) 
+		if (!mainMenu.activeSelf && Input.GetButtonDown ("Fire1")) 
 		{
 			Fire ();
 		}
@@ -29,9 +31,9 @@ public class Shoot : MonoBehaviour {
 			bulletSpawn.rotation);
 
 		// Add velocity to the bullet
-		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 6;
+		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
 
 		// Destroy the bullet after 2 seconds
-		Destroy(bullet, 2.0f);
+		Destroy(bullet, 3.0f);
 	}
 }
