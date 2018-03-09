@@ -9,6 +9,7 @@ public class MainMenuHandler : MonoBehaviour
 	public Button startButton;
 	public Button tutorialButton;
 	public Button quitButton;
+	public Button creditButton;
 
 	// Use this for initialization
 	void Start () 
@@ -16,6 +17,7 @@ public class MainMenuHandler : MonoBehaviour
 		startButton.onClick.AddListener (OnStartButtonClicked);
 		tutorialButton.onClick.AddListener (OnTutorialButtonClicked);
 		quitButton.onClick.AddListener (OnQuitButtonClicked);
+		creditButton.onClick.AddListener (OnCreditButtonClicked);
 	}
 	
 	// Update is called once per frame
@@ -42,6 +44,12 @@ public class MainMenuHandler : MonoBehaviour
 	public void OnQuitButtonClicked()
 	{
 		Debug.Log ("OnQuitButtonClicked");
+		Application.Quit ();
+	}
+
+	public void OnCreditButtonClicked()
+	{
+		Debug.Log ("OnCreditButtonClicked");
 		Application.Quit ();
 	}
 }

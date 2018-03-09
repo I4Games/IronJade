@@ -143,6 +143,7 @@ MonoBehaviour:
   startButton: {fileID: 1990453759}
   tutorialButton: {fileID: 882983166}
   quitButton: {fileID: 536505639}
+  creditButton: {fileID: 2039631999}
 --- !u!224 &24285670
 RectTransform:
   m_ObjectHideFlags: 0
