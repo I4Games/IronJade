@@ -19,15 +19,6 @@ public class MainMenuHandler : MonoBehaviour
 		quitButton.onClick.AddListener (OnQuitButtonClicked);
 		creditButton.onClick.AddListener (OnCreditButtonClicked);
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		if (Input.GetKeyDown(KeyCode.Joystick8Button2)) 
-		{
-			gameObject.SetActive (!gameObject.activeSelf);
-		}
-	}
 
 	public void OnStartButtonClicked()
 	{

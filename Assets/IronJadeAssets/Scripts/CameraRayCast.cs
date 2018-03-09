@@ -19,6 +19,11 @@ public class CameraRayCast : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		if (Input.GetButtonDown("Fire3")) 
+		{
+			mainMenu.SetActive (true);
+		}
+
 		Vector3 rayOrigin = fpsCam.ViewportToWorldPoint (new Vector3 (.5f, .5f, 0));
 		RaycastHit hit;
 		if (Physics.Raycast (rayOrigin, fpsCam.transform.forward, out hit, cursorRange)) 
