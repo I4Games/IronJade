@@ -27,8 +27,8 @@ public class Bird : Target {
 	/// <summary>
     /// Update movement
     /// </summary>
-	void FixedUpdate () {
-        transform.Translate(Vector3.up * speed * dir * Time.fixedDeltaTime);
+	void Update () {
+        transform.Translate(Vector3.up * speed * dir * Time.deltaTime);
 	}
 
     /// <summary>
