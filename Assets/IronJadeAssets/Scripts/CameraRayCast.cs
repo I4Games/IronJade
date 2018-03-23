@@ -8,6 +8,7 @@ public class CameraRayCast : MonoBehaviour
 
 	public float cursorRange = 50f; 
 	public GameObject mainMenu;
+	public GameObject gameOverMenu;
 	public Transform crossHairPosition;
 
 	private Camera fpsCam;
@@ -54,6 +55,7 @@ public class CameraRayCast : MonoBehaviour
 	void HandleButtonClicked(string buttonName)
 	{
 		MainMenuHandler mainMenuHandler = mainMenu.GetComponent<MainMenuHandler>();
+		GameMenuHandler gameOverMenuHandler = gameOverMenu.GetComponent<GameMenuHandler>();
 		switch (buttonName) 
 		{
 		case "Start":
@@ -63,7 +65,15 @@ public class CameraRayCast : MonoBehaviour
 			mainMenuHandler.OnTutorialButtonClicked ();
 			break;
 		case "Quit":
-			mainMenuHandler.OnQuitButtonClicked ();
+			if (mainMenu.activeSelf) {
+				mainMenuHandler.OnQuitButtonClicked ();
+			} 
+			else if (gameOverMenu.activeSelf) {
+				gameOverMenuHandler.OnQuitButtonClicked ();
+			}
+			break;
+		case "Restart":
+			gameOverMenuHandler.OnReStartButtonClicked ();
 			break;
 		}
 	}
