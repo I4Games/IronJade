@@ -6,6 +6,7 @@ TagManager:
   tags:
   - uibutton
   - enemy
+  - Boundary
   layers:
   - Default
   - TransparentFX
