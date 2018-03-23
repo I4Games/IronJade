@@ -27,6 +27,10 @@ public class GameManager : MonoBehaviour {
 			timeLeft -= Time.deltaTime;
 			uiHandler.updateTimeLeftHUDWith((int) timeLeft);
 
+			if (numberOfTargetsLeft <= 0) {
+				uiHandler.showWinConditionCanvas ();
+			}
+
 			if (timeLeft < 0) {
 				uiHandler.updateGameOverScore (numberOfTargetsInLevel - numberOfTargetsLeft);
 				uiHandler.showGameOverCanvas();

@@ -11,7 +11,7 @@ public class Bird : Target {
     /// Bird's movement speed
     /// </summary>
     public float speed = 2f;
-
+	public GameManager gameManager;
     /// <summary>
     /// Time it takes for the bird to disappear
     /// </summary>
