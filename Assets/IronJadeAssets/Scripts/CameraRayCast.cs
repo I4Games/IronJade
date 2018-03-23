@@ -41,7 +41,12 @@ public class CameraRayCast : MonoBehaviour
 					&& Input.GetButtonDown ("Fire1")
 					&& !mainMenu.activeSelf) 
 			{
-				Destroy (hit.collider.gameObject,0.1f);
+                Target target = hit.collider.gameObject.GetComponent<Target>();
+                if (target == null){
+                    Destroy(hit.collider.gameObject, 0.1f);
+                }else {
+                    target.GetShot();
+                }
 			}
 		}
 	}

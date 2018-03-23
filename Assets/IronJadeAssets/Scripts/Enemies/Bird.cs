@@ -13,28 +13,47 @@ public class Bird : Target {
     public float speed = 2f;
 
     /// <summary>
+    /// Time it takes for the bird to disappear
+    /// </summary>
+    public float despawnTime = 10f;
+
+    /// <summary>
     /// Current vertical direction of flight
     /// </summary>
-    private float dir;
+    private Vector3 dir;
 
 	/// <summary>
     /// Initialization of private variables
     /// </summary>
 	void Start () {
-        dir = 1f;
+        Invoke("Die", despawnTime);
+        float zAngle = Random.Range(-90f, 90f);
+        float xAngle = Random.Range(-90f, 90f);
+        dir = Vector3.up;
+        transform.Rotate(new Vector3(xAngle, 0f, zAngle));
 	}
 	
 	/// <summary>
     /// Update movement
     /// </summary>
 	void Update () {
-        transform.Translate(Vector3.up * speed * dir * Time.deltaTime);
+        transform.Translate(dir * speed * Time.deltaTime);
 	}
 
     /// <summary>
     /// Implementation of parent GetShot
     /// </summary>
     public override void GetShot(){
-        dir = -1f;
+        CancelInvoke();
+        transform.rotation = Quaternion.identity;
+        dir = Vector3.down;
+        Invoke("Die", 3f);
+    }
+
+    /// <summary>
+    /// Kill this bird
+    /// </summary>
+    void Die(){
+        Destroy(gameObject);
     }
 }
