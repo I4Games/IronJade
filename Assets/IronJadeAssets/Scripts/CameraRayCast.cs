@@ -55,7 +55,7 @@ public class CameraRayCast : MonoBehaviour
 	void HandleButtonClicked(string buttonName)
 	{
 		MainMenuHandler mainMenuHandler = mainMenu.GetComponent<MainMenuHandler>();
-		GameMenuHandler gameOverMenuHandler = gameOverMenu.GetComponent<GameMenuHandler>();
+		GameOverMenuHandler gameOverMenuHandler = gameOverMenu.GetComponent<GameOverMenuHandler>();
 		switch (buttonName) 
 		{
 		case "Start":
