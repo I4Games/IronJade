@@ -28,7 +28,7 @@ public class CameraRayCast : MonoBehaviour
 
 		Vector3 rayOrigin = crossHairPosition.TransformDirection (Vector3.forward);
 
-		Debug.Log (rayOrigin.ToString());
+		//Debug.Log (rayOrigin.ToString());
 
 //		Debug.DrawRay(crossHairPosition.position, rayOrigin * 50, Color.red);
 		RaycastHit hit;

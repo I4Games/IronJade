@@ -29,6 +29,8 @@ public class TargetSpawner : MonoBehaviour {
     /// </summary>
     private void Spawn(){
         int idx = Random.Range(0, targetPrefabs.Count);
-        Instantiate(targetPrefabs[idx], transform);
+		Target obj = Instantiate(targetPrefabs[idx], transform) as Target;
+		obj.transform.localPosition = Vector3.zero;
+
     }
 }

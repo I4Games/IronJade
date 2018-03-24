@@ -26,11 +26,12 @@ public class Bird : Target {
     /// Initialization of private variables
     /// </summary>
 	void Start () {
+		base.Start ();
         Invoke("Die", despawnTime);
-        float zAngle = Random.Range(-90f, 90f);
-        float xAngle = Random.Range(-90f, 90f);
-        dir = Vector3.up;
-        transform.Rotate(new Vector3(xAngle, 0f, zAngle));
+        float yAngle = Random.Range(-90f, 90f);
+        float xAngle = Random.Range(-90f, 0f);
+        dir = Vector3.forward;
+		transform.Rotate(new Vector3(xAngle, yAngle, 0f));
 	}
 	
 	/// <summary>
@@ -45,9 +46,10 @@ public class Bird : Target {
     /// </summary>
     public override void GetShot(){
         CancelInvoke();
-        transform.rotation = Quaternion.identity;
-        dir = Vector3.down;
+		transform.rotation = Quaternion.Euler (90f, 0f, 0f);
         Invoke("Die", 3f);
+
+		gameManager.TargetKilled ();
     }
 
     /// <summary>
