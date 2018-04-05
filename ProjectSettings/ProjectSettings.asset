@@ -136,7 +136,7 @@ PlayerSettings:
   vrSettings:
     cardboard:
       depthFormat: 0
-      enableTransitionView: 0
+      enableTransitionView: 1
     daydream:
       depthFormat: 0
       useSustainedPerformanceMode: 0
@@ -159,6 +159,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.i4games.ironjade
+    iOS: com.I4Games.IronJade
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
@@ -178,7 +179,7 @@ PlayerSettings:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 7.0
+  iOSTargetOSVersionString: 8.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 9.0
@@ -277,6 +278,10 @@ PlayerSettings:
     m_Devices:
     - split
     - OpenVR
+  - m_BuildTarget: iOS
+    m_Enabled: 1
+    m_Devices:
+    - cardboard
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -309,7 +314,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Used to scan QR codes
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 
