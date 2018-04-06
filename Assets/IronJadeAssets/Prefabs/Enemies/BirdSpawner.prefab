@@ -20,6 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4515644904396284}
   - component: {fileID: 114995377590253626}
+  - component: {fileID: 135867673937916132}
+  - component: {fileID: 54178905032529064}
   m_Layer: 0
   m_Name: BirdSpawner
   m_TagString: Untagged
@@ -34,12 +36,27 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161905864224298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.89, y: 0.9190202, z: -3.82}
+  m_LocalPosition: {x: 198.79785, y: -9.81723, z: 175.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54178905032529064
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1161905864224298}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &114995377590253626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53,4 +70,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPrefabs:
   - {fileID: 114872067201166178, guid: 785a4d9d2ce549f4f91ce890ea500571, type: 2}
-  spawnRate: 2
+  - {fileID: 114047362548035212, guid: 39a56a0fc6d42fa4f8fb7e491e17a67a, type: 2}
+  spawnRate: 1
+  detectionRadius: 2000
+  spawnRadius: 30
+--- !u!135 &135867673937916132
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1161905864224298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
