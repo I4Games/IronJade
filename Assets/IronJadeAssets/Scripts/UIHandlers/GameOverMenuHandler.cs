@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameOverMenuHandler : MonoBehaviour 
 {
@@ -21,8 +22,7 @@ public class GameOverMenuHandler : MonoBehaviour
 	public void OnReStartButtonClicked()
 	{
 		Debug.Log ("OnReStartButtonClicked");
-		gameObject.SetActive(false);
-		mainMenu.SetActive (true);
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 
 	}
 

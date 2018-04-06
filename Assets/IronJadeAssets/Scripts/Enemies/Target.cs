@@ -6,7 +6,7 @@ using UnityEngine;
 /// Abstract class for objects that can be shot
 /// </summary>
 public abstract class Target : MonoBehaviour {
-	GameManager gameManager;
+	protected GameManager gameManager;
     /// <summary>
     /// Callback for when the object gets shot
     /// </summary>
