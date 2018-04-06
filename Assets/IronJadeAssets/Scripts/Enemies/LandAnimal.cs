@@ -25,7 +25,8 @@ public class LandAnimal : Target {
     /// <summary>
     /// Initialization
     /// </summary>
-    void Start(){
+    public override void Start(){
+        base.Start();
         playerTransform = GameObject.Find("Player").transform;
     }
 

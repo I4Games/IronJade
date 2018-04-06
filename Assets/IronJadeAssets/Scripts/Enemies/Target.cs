@@ -12,7 +12,7 @@ public abstract class Target : MonoBehaviour {
     /// </summary>
     public abstract void GetShot();
 
-	public void Start ()
+	public virtual void Start ()
 	{
 		gameManager = GameObject.Find ("GameManager").gameObject.GetComponent<GameManager>();
 	}

@@ -25,7 +25,7 @@ public class Bird : Target {
 	/// <summary>
     /// Initialization of private variables
     /// </summary>
-	void Start () {
+	public override void Start () {
 		base.Start ();
         Invoke("Die", despawnTime);
         float yAngle = Random.Range(-90f, 90f);
