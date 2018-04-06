@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4334,8 +4334,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114995377590253626, guid: e2d3e9d09d667bb449911676650bdda7,
         type: 2}
-      propertyPath: spawnRate
-      value: 1
+      propertyPath: detectionRadius
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114995377590253626, guid: e2d3e9d09d667bb449911676650bdda7,
+        type: 2}
+      propertyPath: spawnRadius
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2d3e9d09d667bb449911676650bdda7, type: 2}
@@ -9546,7 +9551,7 @@ Prefab:
     - target: {fileID: 224039410649122456, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 224765738217538294, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
@@ -9566,7 +9571,7 @@ Prefab:
     - target: {fileID: 224765738217538294, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -46
       objectReference: {fileID: 0}
     - target: {fileID: 224737291496972450, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
@@ -9586,7 +9591,7 @@ Prefab:
     - target: {fileID: 224737291496972450, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -77
       objectReference: {fileID: 0}
     - target: {fileID: 224675856359939512, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
@@ -9606,7 +9611,7 @@ Prefab:
     - target: {fileID: 224675856359939512, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -108
       objectReference: {fileID: 0}
     - target: {fileID: 4769695065902904, guid: 8bce54362adb447929be7a1b6ab7acc7, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9749,9 +9754,30 @@ Prefab:
       value: 
       objectReference: {fileID: 12800000, guid: 3d202d92317e74834a8ce197de7187fc,
         type: 3}
+    - target: {fileID: 1459745493803374, guid: 8bce54362adb447929be7a1b6ab7acc7, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8bce54362adb447929be7a1b6ab7acc7, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1786611151 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1459745493803374, guid: 8bce54362adb447929be7a1b6ab7acc7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1784070452}
+--- !u!65 &1786611156
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786611151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0.03}
 --- !u!1001 &1791446541
 Prefab:
   m_ObjectHideFlags: 0

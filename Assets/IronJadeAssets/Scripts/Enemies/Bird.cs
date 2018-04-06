@@ -22,6 +22,11 @@ public class Bird : Target {
     /// </summary>
     private Vector3 dir;
 
+    /// <summary>
+    /// Determines if the bird is dead
+    /// </summary>
+    protected bool dead = false;
+
 	/// <summary>
     /// Initialization of private variables
     /// </summary>
@@ -38,15 +43,31 @@ public class Bird : Target {
     /// Update movement
     /// </summary>
 	void Update () {
-        transform.Translate(dir * speed * Time.deltaTime);
+        if (dead) {
+            DeathBehaviour();
+        }else {
+            Behave();
+        }
 	}
+
+    public virtual void Behave(){
+        transform.Translate(dir * speed * Time.deltaTime);
+    }
+
+    public virtual void SetDeathState(){
+        transform.rotation = Quaternion.Euler(90f, 0f, 0f);
+    }
+
+    public virtual void DeathBehaviour(){
+        transform.Translate(dir * speed * Time.deltaTime);
+    }
 
     /// <summary>
     /// Implementation of parent GetShot
     /// </summary>
     public override void GetShot(){
         CancelInvoke();
-		transform.rotation = Quaternion.Euler (90f, 0f, 0f);
+        SetDeathState();
         Invoke("Die", 3f);
 
 		gameManager.TargetKilled ();
