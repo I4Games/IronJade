@@ -5,6 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/IronJadeAssets/Scenes/FirstPlayable.unity
-    guid: c7337f1a6c9d34f9eb5bf8e9ddc22fff
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
