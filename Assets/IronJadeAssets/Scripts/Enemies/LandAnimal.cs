@@ -45,5 +45,6 @@ public class LandAnimal : Target {
     /// </summary>
     public override void GetShot(){
         dead = true;
+		soundManager.PlayLandAnimalDeathSound ();
     }
 }
