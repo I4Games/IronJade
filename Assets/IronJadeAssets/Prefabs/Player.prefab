@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 222243850141382638}
   - component: {fileID: 114912165877691938}
   - component: {fileID: 114195673647064634}
+  - component: {fileID: 114688384793676568}
   m_Layer: 5
   m_Name: TargetsLeftText
   m_TagString: Untagged
@@ -349,6 +350,7 @@ GameObject:
   - component: {fileID: 222373558040517156}
   - component: {fileID: 114070410082217616}
   - component: {fileID: 114823187244737038}
+  - component: {fileID: 114547787879952970}
   m_Layer: 5
   m_Name: AmmoLeftText
   m_TagString: Untagged
@@ -434,9 +436,10 @@ GameObject:
   - component: {fileID: 114119053071641044}
   - component: {fileID: 54245344562230600}
   - component: {fileID: 114949059125464872}
+  - component: {fileID: 65633056764247984}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -770,6 +773,7 @@ GameObject:
   - component: {fileID: 222583545434594858}
   - component: {fileID: 114999428622966158}
   - component: {fileID: 114377660898745468}
+  - component: {fileID: 114311574170193232}
   m_Layer: 5
   m_Name: TimeLeftText
   m_TagString: Untagged
@@ -1008,7 +1012,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1459745493803374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 202.6, y: -6.1, z: 99.1}
+  m_LocalPosition: {x: 202.6, y: -9.282396, z: 99.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4107849759813374}
@@ -1429,7 +1433,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!54 &54427225481728944
 Rigidbody:
@@ -1482,6 +1486,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 157.96303, y: 26.10646, z: 0}
   m_Center: {x: 0.30704972, y: -0.0802315, z: -0.50001967}
+--- !u!65 &65633056764247984
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1459745493803374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0.03}
 --- !u!65 &65682816201128280
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1989,6 +2005,20 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114311574170193232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902407645851532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114341664118784542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2424,6 +2454,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Tutorial
+--- !u!114 &114547787879952970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371233928281674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114608884253656844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2536,6 +2580,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114688384793676568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1302594397393828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114690021895747840
 MonoBehaviour:
   m_ObjectHideFlags: 1

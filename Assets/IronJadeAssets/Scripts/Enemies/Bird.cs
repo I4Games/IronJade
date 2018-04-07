@@ -69,7 +69,7 @@ public class Bird : Target {
         CancelInvoke();
         SetDeathState();
         Invoke("Die", 3f);
-
+		soundManager.PlayBirdDeathSound ();
 		gameManager.TargetKilled ();
     }
 

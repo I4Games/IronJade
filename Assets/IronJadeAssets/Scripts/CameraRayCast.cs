@@ -11,12 +11,6 @@ public class CameraRayCast : MonoBehaviour
 	public GameObject gameOverMenu;
 	public Transform crossHairPosition;
 
-	private Camera fpsCam;
-
-	void Start()
-	{
-		fpsCam = gameObject.GetComponent<Camera> ();
-	}
 
 	// Update is called once per frame
 	void Update () 
