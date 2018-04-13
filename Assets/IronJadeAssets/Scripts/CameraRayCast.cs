@@ -11,6 +11,12 @@ public class CameraRayCast : MonoBehaviour
 	public GameObject gameOverMenu;
 	public Transform crossHairPosition;
 
+	private GameManager gameManager;
+
+	void Start()
+	{
+		gameManager = GameObject.Find ("GameManager").GetComponent<GameManager> ();
+	}
 
 	// Update is called once per frame
 	void Update () 
@@ -43,6 +49,11 @@ public class CameraRayCast : MonoBehaviour
                     target.GetShot();
                 }
 			}
+		}
+
+		if (Input.GetButtonDown ("Fire1") && !mainMenu.activeSelf) 
+		{
+			gameManager.ShotFired ();
 		}
 	}
 

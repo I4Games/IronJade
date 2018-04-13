@@ -8,3 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/IronJadeAssets/Scenes/FirstPlayable.unity
+    guid: cfdbe80fd33694d41aae0d994abb2728
+  - enabled: 1
+    path: Assets/IronJadeAssets/Scenes/Lv2.unity
+    guid: cd31bf9d333441b4294e40b4730295cc
+  - enabled: 1
+    path: Assets/IronJadeAssets/Scenes/Lv3.unity
+    guid: ef9cd6eaa8834c24a84457f6638346de
