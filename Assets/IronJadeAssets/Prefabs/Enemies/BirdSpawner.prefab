@@ -69,8 +69,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPrefabs:
-  - {fileID: 114872067201166178, guid: 785a4d9d2ce549f4f91ce890ea500571, type: 2}
-  - {fileID: 114047362548035212, guid: 39a56a0fc6d42fa4f8fb7e491e17a67a, type: 2}
+  - {fileID: 114872067201166178, guid: dc5f8baa9966542bb9a550f2151029d8, type: 2}
+  - {fileID: 114047362548035212, guid: 9ef58f44d01cf4c1a8e0e7eca300b359, type: 2}
   spawnRate: 1
   detectionRadius: 2000
   spawnRadius: 30

@@ -9,9 +9,11 @@ public class Shoot : MonoBehaviour {
 	public GameObject mainMenu;
 	public float bulletSpeed = 80f;
 
+	private SoundManager soundManager;
+
 	// Use this for initialization
 	void Start () {
-		
+		soundManager = GameObject.Find ("SoundManager").GetComponent<SoundManager> ();
 	}
 	
 	// Update is called once per frame
@@ -33,7 +35,9 @@ public class Shoot : MonoBehaviour {
 		// Add velocity to the bullet
 		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
 
+
 		// Destroy the bullet after 2 seconds
 		Destroy(bullet, 3.0f);
+		soundManager.PlayShootSound ();
 	}
 }

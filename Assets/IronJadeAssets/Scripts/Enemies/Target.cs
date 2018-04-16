@@ -11,9 +11,11 @@ public abstract class Target : MonoBehaviour {
     /// Callback for when the object gets shot
     /// </summary>
     public abstract void GetShot();
+	protected SoundManager soundManager;
 
 	public virtual void Start ()
 	{
 		gameManager = GameObject.Find ("GameManager").gameObject.GetComponent<GameManager>();
+		soundManager = GameObject.Find ("SoundManager").GetComponent<SoundManager>();
 	}
 }
