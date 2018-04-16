@@ -66,11 +66,14 @@ public class Bird : Target {
     /// Implementation of parent GetShot
     /// </summary>
     public override void GetShot(){
-        CancelInvoke();
-        SetDeathState();
-        Invoke("Die", 3f);
-		soundManager.PlayBirdDeathSound ();
-		gameManager.TargetKilled ();
+        if (!dead){
+            dead = true;
+            CancelInvoke();
+            SetDeathState();
+            Invoke("Die", 3f);
+            soundManager.PlayBirdDeathSound();
+            gameManager.TargetKilled();
+        }
     }
 
     /// <summary>

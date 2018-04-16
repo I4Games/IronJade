@@ -12,6 +12,7 @@ public class FleeingBird : Bird {
 
     public override void Behave(){
         Vector3 awayDir = (transform.position - playerTransform.position).normalized;
-        transform.Translate(awayDir * speed * Time.deltaTime);
+        transform.rotation = Quaternion.LookRotation(awayDir + Vector3.up * 0.3f, Vector3.up);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 }

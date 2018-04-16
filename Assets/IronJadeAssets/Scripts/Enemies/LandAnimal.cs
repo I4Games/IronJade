@@ -36,7 +36,9 @@ public class LandAnimal : Target {
     void Update(){
         if (!dead && playerTransform != null){
             Vector3 movementDir = (transform.position - playerTransform.position).normalized;
-            transform.Translate(movementDir * speed * Time.deltaTime);
+            movementDir.Set(movementDir.x, 0f, movementDir.z);
+            transform.rotation = Quaternion.LookRotation(movementDir, Vector3.up);
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
     }
 
@@ -44,7 +46,20 @@ public class LandAnimal : Target {
     /// Callback from getting shot
     /// </summary>
     public override void GetShot(){
-        dead = true;
-		soundManager.PlayLandAnimalDeathSound ();
+        if (!dead){
+            dead = true;
+            transform.Rotate(new Vector3(0f, 0f, 90f));
+            soundManager.PlayLandAnimalDeathSound();
+            Invoke("Die", 3f);
+            gameManager.TargetKilled();
+        }
+    }
+
+    /// <summary>
+    /// Kill this animal
+    /// </summary>
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }

@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161905864224298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 198.79785, y: -9.81723, z: 175.81}
+  m_LocalPosition: {x: 198.79785, y: -9.621, z: 175.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -71,6 +71,7 @@ MonoBehaviour:
   targetPrefabs:
   - {fileID: 114872067201166178, guid: dc5f8baa9966542bb9a550f2151029d8, type: 2}
   - {fileID: 114047362548035212, guid: 9ef58f44d01cf4c1a8e0e7eca300b359, type: 2}
+  - {fileID: 114493966165798960, guid: 759d9922409b15b449cd90f22f132044, type: 2}
   spawnRate: 1
   detectionRadius: 2000
   spawnRadius: 30
