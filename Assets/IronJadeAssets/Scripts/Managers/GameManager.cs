@@ -14,11 +14,15 @@ public class GameManager : MonoBehaviour {
 	private float timeLeft;
 	private int ammoLeft;
 
+	SoundManager soundManager;
+
 	// Use this for initialization
 	void Start () {
 		numberOfTargetsLeft = numberOfTargetsInLevel;
 		timeLeft = levelTimeOutInSeconds;
 		ammoLeft = ammoPerRound;
+
+		soundManager = GameObject.Find ("SoundManager").GetComponent<SoundManager> ();
 	}
 	
 	// Update is called once per frame
@@ -31,6 +35,7 @@ public class GameManager : MonoBehaviour {
 
 			if (numberOfTargetsLeft <= 0) {
 
+				soundManager.PlayLevelOverSound ();
 				if (SceneManager.GetActiveScene ().name == "FirstPlayable") {
 					SceneManager.LoadScene ("Lv2");
 				}

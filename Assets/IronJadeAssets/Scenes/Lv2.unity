@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.39019442, g: 0.54838204, b: 0.7673869, a: 1}
+  m_IndirectSpecularColor: {r: 0.39015546, g: 0.548373, b: 0.76738876, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -6570,9 +6570,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb583ffde0cd4a5d9ef42661a39078b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTimeOutInSeconds: 60
-  numberOfTargetsInLevel: 10
-  ammoPerRound: 20
+  levelTimeOutInSeconds: 180
+  numberOfTargetsInLevel: 25
+  ammoPerRound: 50
   uiHandler: {fileID: 697578775}
 --- !u!114 &697578775
 MonoBehaviour:
@@ -13545,6 +13545,19 @@ Prefab:
     - target: {fileID: 224675856359939512, guid: 8bce54362adb447929be7a1b6ab7acc7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114119053071641044, guid: 8bce54362adb447929be7a1b6ab7acc7,
+        type: 2}
+      propertyPath: canSwitchWeapons
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459745493803374, guid: 8bce54362adb447929be7a1b6ab7acc7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282739718367576, guid: 8bce54362adb447929be7a1b6ab7acc7, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

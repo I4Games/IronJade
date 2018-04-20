@@ -15,6 +15,12 @@ public class UIHandler : MonoBehaviour {
 	public Text ammoLeftText;
 	public Text gameCanvasScore;
 
+	SoundManager soundManager;
+
+	void Start(){
+		soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+	}
+
 	public void updateTargetsLeftHUDWith(int newValue){
 	
 		targetsLeftText.text = newValue.ToString ();
@@ -42,7 +48,8 @@ public class UIHandler : MonoBehaviour {
 	}
 
 	public void showGameOverCanvas() {
-		
+
+		soundManager.PlayGameOverSound ();
 		winConditionCanvas.SetActive (false);
 		mainMenuCanvas.SetActive (false);
 		gameOverCanvas.SetActive (true);
@@ -51,7 +58,8 @@ public class UIHandler : MonoBehaviour {
 	}
 
 	public void showWinConditionCanvas() {
-		
+
+		soundManager.PlayGameWonSound ();
 		winConditionCanvas.SetActive (true);
 		mainMenuCanvas.SetActive (false);
 		gameOverCanvas.SetActive (false);

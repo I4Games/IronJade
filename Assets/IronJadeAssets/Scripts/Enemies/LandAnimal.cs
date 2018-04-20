@@ -49,7 +49,7 @@ public class LandAnimal : Target {
         if (!dead){
             dead = true;
             transform.Rotate(new Vector3(0f, 0f, 90f));
-            soundManager.PlayLandAnimalDeathSound();
+			soundManager.PlayHippoDeathSound();
             Invoke("Die", 3f);
             gameManager.TargetKilled();
         }
